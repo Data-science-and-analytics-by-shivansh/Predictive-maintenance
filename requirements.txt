@@ -1,0 +1,47 @@
+# Enterprise Predictive Maintenance System
+# Production Dependencies
+
+# Core ML & Data Science
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# Optional: Advanced survival analysis
+# lifelines>=0.27.0  # Full Cox PH, Weibull AFT models
+
+# Optional: Deep learning for time series
+# tensorflow>=2.8.0
+# keras>=2.8.0
+
+# Optional: GPU acceleration
+# xgboost>=1.5.0
+# lightgbm>=3.3.0
+
+# Optional: Advanced time series
+# statsmodels>=0.13.0
+# prophet>=1.0  # Facebook Prophet for seasonal decomposition
+
+# Optional: API deployment
+# flask>=2.0.0
+# gunicorn>=20.1.0
+# flask-cors>=3.0.10
+
+# Optional: Monitoring & Logging
+# prometheus-client>=0.12.0
+# python-json-logger>=2.0.0
+
+# Optional: Cloud deployment
+# boto3>=1.20.0  # AWS
+# google-cloud-storage>=2.0.0  # GCP
+# azure-storage-blob>=12.9.0  # Azure
+
+# Optional: Job scheduling
+# apscheduler>=3.8.0  # Automated retraining
+
+# Development dependencies
+# pytest>=7.0.0
+# pytest-cov>=3.0.0
+# black>=22.0.0
+# flake8>=4.0.0
+# mypy>=0.930
